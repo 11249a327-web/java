@@ -1,3 +1,19 @@
+Program to Demonstrate Different Types of Inheritance in Java
+
+Aim:
+To write and execute a Java program to demonstrate single, multilevel, hierarchical, and multiple inheritance using interfaces.
+
+Algorithm:
+Create a parent class Animal with an eat() method.
+Create Dog by extending Animal.
+Create Puppy by extending Dog.
+Create Cat by extending Animal.
+Create Father and Mother interfaces.
+Implement both interfaces in the Child class.
+Create objects and call the inherited methods.
+Display the output for each type of inheritance.
+
+Program:
 // Parent class
 class Animal {
     void eat() {
@@ -88,3 +104,26 @@ public class inheritance {
         ch.mother();
     }
 }
+
+Output:
+SINGLE INHERITANCE
+Animal eats
+Dog barks
+
+MULTILEVEL INHERITANCE
+Animal eats
+Dog barks
+Puppy plays
+
+HIERARCHICAL INHERITANCE
+Animal eats
+Dog barks
+Animal eats
+Cat meows
+
+MULTIPLE INHERITANCE USING INTERFACES
+Child gets father's property
+Child gets mother's property
+
+Result:
+Thus, the program successfully demonstrates single, multilevel, hierarchical, and multiple inheritance using interfaces in Java.
