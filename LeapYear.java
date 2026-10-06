@@ -1,3 +1,18 @@
+Program to Check Whether a Year is a Leap Year or Not
+
+Aim:
+To write and execute a Java program to check whether the given year is a leap year or not using conditional statements.
+
+Algorithm:
+Read the year from the user.
+Check whether the year is divisible by 400.
+If divisible by 400, it is a leap year.
+Otherwise, check whether it is divisible by 100.
+If divisible by 100, it is not a leap year.
+Otherwise, check whether it is divisible by 4.
+If divisible by 4, it is a leap year; otherwise, it is not.
+
+Program:
 import java.util.Scanner;
 
 public class LeapYear {
@@ -29,3 +44,10 @@ public class LeapYear {
         s.close();
     }
 }
+
+Output:
+Enter any year: 2024
+Year 2024 is a Leap Year
+
+Result:
+Thus, the given year was successfully checked and identified as a leap year or not
