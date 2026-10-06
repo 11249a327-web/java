@@ -1,3 +1,25 @@
+Arithmetic Operators in Java
+
+Aim:
+To write and execute a Java program to perform different arithmetic operations such as addition, subtraction, multiplication, division, and modulus on two numbers using a menu-driven approach.
+
+Algorithm:
+Import the Scanner class to read input from the user.
+Create a Scanner object.
+Read two numbers from the user.
+Display the list of arithmetic operations.
+Read the user's choice.
+Use a switch statement to perform the selected operation.
+Perform addition when the choice is 1.
+Perform subtraction when the choice is 2.
+Perform multiplication when the choice is 3.
+Perform division when the choice is 4 and check whether the second number is zero.
+Perform modulus when the choice is 5 and check whether the second number is zero.
+If the choice is 6, exit the program.
+Display an error message for an invalid choice.
+Repeat the process until the user chooses to exit.
+
+program:
 import java.util.Scanner;
 
 public class ArithmeticOperators {
@@ -69,3 +91,23 @@ public class ArithmeticOperators {
         }
     }
 }
+
+output:
+Enter the two numbers to perform operations
+
+Enter the first number: 20
+Enter the second number: 10
+
+Choose the operation you want to perform
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+5. MODULUS
+6. EXIT
+
+1
+Result: 30
+
+RESULT:
+Thus, the Java program to perform addition, subtraction, multiplication, division, and modulus using arithmetic operators and a menu-driven switch statement was successfully executed.
