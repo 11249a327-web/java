@@ -58,7 +58,7 @@ class BinarySearch {
         }
 
 
-Outputl:
+Output:
 Enter number of elements:
 5
 Enter elements of array (in sorted order):
