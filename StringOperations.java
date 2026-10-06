@@ -1,3 +1,20 @@
+Program to Perform Various String Operations in Java
+
+Aim:
+To write and execute a Java program to perform various operations on strings such as finding length, concatenation, comparison, case conversion, substring, searching, replacing, trimming, and joining.
+
+Algorithm:
+Read two strings from the user.
+Find the length and character at a particular index.
+Perform concatenation and compare the two strings.
+Convert the string to uppercase and lowercase.
+Extract a substring and check whether it contains a character.
+Check the starting and ending characters of the string.
+Find the first and last occurrence of a character.
+Replace characters, trim spaces, and check whether the string is empty.
+Convert the string into a character array and perform compareTo() and join() operations.
+
+Program:
 import java.util.Scanner;
 
 public class StringOperations {
@@ -97,3 +114,67 @@ public class StringOperations {
         sc.close();
     }
 }
+
+Output:
+Enter first string: Apple
+Enter second string: apple
+
+1. Length of string:
+Length = 5
+
+2. Character at index 0:
+A
+
+3. Concatenation:
+Appleapple
+
+4. String comparison:
+equals() = false
+
+5. Compare ignoring case:
+equalsIgnoreCase() = true
+
+6. Uppercase:
+APPLE
+
+7. Lowercase:
+apple
+
+8. Substring:
+App
+
+9. Contains:
+Contains 'a' = false
+
+10. Starts with:
+Starts with 'A' = true
+
+11. Ends with:
+Ends with 'a' = false
+
+12. Index of 'a':
+-1
+
+13. Last index of 'a':
+-1
+
+14. Replace:
+Apple
+
+15. Trim:
+Apple
+
+16. Check empty:
+Is empty = false
+
+17. Character array:
+A p p l e
+
+18. compareTo():
+-32
+
+19. Join:
+Apple apple
+
+Result:
+Thus, various String operations in Java were successfully performed using the built-in String methods
