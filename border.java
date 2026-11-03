@@ -1,3 +1,19 @@
+BorderLayout in Java
+
+Aim:
+To write a Java program to create a frame using BorderLayout and arrange five buttons in the North, South, East, West, and Center regions
+
+Algorithm:
+1. Import the AWT package.
+2. Create a class named Border with the main() method.
+3. Create a frame.
+4. Set the frame layout to BorderLayout.
+5. Create five buttons named North, South, East, West, and Center.
+6. Add each button to its respective region.
+7. Set the frame size and make it visible.
+
+Program:
+    
 import java.awt.*;
 import java.awt.event.*;
 
@@ -25,3 +41,7 @@ public class border
         f.setVisible(true);
     }
 }
+
+
+Result:
+Thus, the Java program to implement BorderLayout by placing five buttons in the North, South, East, West, and Center regions was executed successfully
