@@ -1,3 +1,19 @@
+Grid Layout Using Java Applet
+
+Aim:
+To write a Java applet program to create ten buttons labelled A to J using GridLayout and arrange them in five rows and two columns with 20-pixel insets on all four sides.
+
+Algorithm:
+1. Import the java.awt, java.applet, and java.io packages.
+2. Create a class named gid that extends the Applet class.
+3. Declare ten button variables, from b1 to b10.
+4. Define the init() method and set the layout to GridLayout(5, 2).
+5. Create ten buttons labelled A to J.
+6. Add all ten buttons to the applet using separate add() statements.
+7. Override the getInsets() method to set 20-pixel insets on all four sides.
+
+Program:
+    
 import java.awt.*;
 import java.applet.*;
 import java.io.*;
@@ -39,3 +55,6 @@ public class gid extends Applet
         return new Insets(20, 20, 20, 20);
     }
 }
+
+Result:
+Thus, the Java applet program using GridLayout was written and executed successfully, displaying ten buttons labelled A to J in five rows and two columns.
