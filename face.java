@@ -1,3 +1,19 @@
+Drawing a Human Face Using Java Swing
+
+Aim:
+To write a Java program to draw a human face using the Graphics class and Swing components.
+
+Algorithm:
+1. Import the java.awt and javax.swing packages.
+2. Create a class named Face that extends JPanel.
+3. Override the paintComponent() method.
+4. Use drawOval() to draw the face, eyes, nose, and ears.
+5. Use fillOval() and fillArc() to draw facial features.
+6. Create a JFrame to display the human face.
+7. Set the frame size and make it visible.
+
+Program:
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -27,3 +43,6 @@ public class Face extends JPanel {
         frame.setVisible(true);
     }
 }
+
+Result:
+Thus, the Java program to draw a human face using Java Swing and Graphics methods was written and executed successfully.
